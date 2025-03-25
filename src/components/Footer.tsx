@@ -30,7 +30,9 @@ export function Footer() {
         <div className="md:text-right">
           <p className="text-lg font-semibold mb-2">💡 Innovisual</p>
           <p>
-            Wij brengen gerechten tot leven met 3D en AR-technologie. Restaurants innoveren moeiteloos met onze AR-technologie. Meer beleving, minder twijfel, hogere omzet. (scan qr code)
+            Wij brengen gerechten tot leven met 3D en AR-technologie. 
+            Restaurants innoveren moeiteloos met onze AR-technologie. 
+            Meer beleving, minder twijfel, hogere omzet.
           </p>
         </div>
       </div>
