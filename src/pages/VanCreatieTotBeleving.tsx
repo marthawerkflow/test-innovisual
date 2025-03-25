@@ -1,4 +1,3 @@
-
 import React, { useEffect } from "react";
 import Navigation from "@/components/Navigation";
 
@@ -8,14 +7,14 @@ const VanCreatieTotBeleving: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#FFFFF0] transition-colors duration-500">
       <Navigation />
-      
+
       <main className="section-container items-center pt-32">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           <div className="flex flex-col">
             <h2 className="text-3xl md:text-4xl font-bold mb-12 animate-fade-in text-left">Van Creatie tot Beleving</h2>
-            
+
             <div className="space-y-8 mt-4">
               <div className="animate-fade-in" style={{ animationDelay: "100ms" }}>
                 <p className="text-xl font-medium mb-2">Breng gerechten tot leven met INNOVISUAL.</p>
@@ -24,14 +23,14 @@ const VanCreatieTotBeleving: React.FC = () => {
                   die impact maken en conversie verhogen.
                 </p>
               </div>
-              
+
               <div className="animate-fade-in" style={{ animationDelay: "200ms" }}>
                 <p className="text-innovisual-muted">
                   Wij verzorgen het volledige proces: van 3D-scans tot de interactieve presentatie. 
                   U hoeft enkel het gerecht klaar te zetten.
                 </p>
               </div>
-              
+
               <div className="animate-fade-in" style={{ animationDelay: "300ms" }}>
                 <div>
                   <img 
@@ -43,7 +42,7 @@ const VanCreatieTotBeleving: React.FC = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="animate-fade-in order-first lg:order-last" style={{ animationDelay: "200ms" }}>
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img 
@@ -60,3 +59,4 @@ const VanCreatieTotBeleving: React.FC = () => {
 };
 
 export default VanCreatieTotBeleving;
+
