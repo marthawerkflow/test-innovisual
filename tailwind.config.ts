@@ -25,8 +25,7 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
-				ivory: '#FFFFF0', // 
-				
+				ivory: '#FFFFF0',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
@@ -74,7 +73,6 @@ export default {
 					foreground: '#000000',
 					border: '#EEEEEE',
 				},
-				ivory: "#FFFFF0", // ✅ hier is je extra kleur
 			},
 			fontFamily: {
 				raleway: ['Raleway', 'sans-serif'],
@@ -185,3 +183,4 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
