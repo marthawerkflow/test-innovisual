@@ -70,7 +70,8 @@ export default {
 					background: '#FFFFFF',
 					foreground: '#000000',
 					border: '#EEEEEE',
-				}
+				},
+				ivory: "#FFFFF0", // ✅ hier is je extra kleur
 			},
 			fontFamily: {
 				raleway: ['Raleway', 'sans-serif'],
