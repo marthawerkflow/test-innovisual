@@ -31,6 +31,7 @@ const App = () => (
 
         <Footer />
       </BrowserRouter>
+      <div className="hidden bg-ivory">force Tailwind to include bg-ivory</div>
     </TooltipProvider>
   </QueryClientProvider>
 );
