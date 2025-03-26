@@ -26,7 +26,7 @@ const LetsTalk: React.FC = () => {
   }, [isMobile]);
 
   return (
-    <div className="min-h-screen bg-[#FFFFF0] transition-colors duration-500">
+    <div className="min-h-screen bg-ivory transition-colors duration-500">
       <Navigation />
 
       <main className="section-container">
