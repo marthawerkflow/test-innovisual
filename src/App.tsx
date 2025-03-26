@@ -26,7 +26,9 @@ const App = () => (
           <Route path="*" element={<NotFound />} />
         </Routes>
 
-        {/* ⬇️ Hier komt de Footer */}
+      {/* Force Tailwind to include custom color class */}
+<div className="hidden bg-ivory">ivory</div>
+
         <Footer />
       </BrowserRouter>
     </TooltipProvider>
