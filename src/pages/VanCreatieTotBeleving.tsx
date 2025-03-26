@@ -59,4 +59,3 @@ const VanCreatieTotBeleving: React.FC = () => {
 };
 
 export default VanCreatieTotBeleving;
-
