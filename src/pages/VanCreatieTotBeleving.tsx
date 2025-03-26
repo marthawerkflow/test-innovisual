@@ -7,7 +7,8 @@ const VanCreatieTotBeleving: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-ivory transition-colors duration-500">
+   <div className="min-h-screen transition-colors duration-500" style={{ backgroundColor: "#FFFFF0" }}>
+
       <Navigation />
 
       <main className="section-container items-center pt-32">
